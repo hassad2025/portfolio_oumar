@@ -1,16 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { 
-  Cloud, 
-  Shield, 
-  Server, 
-  Database, 
-  Key, 
-  Eye,
-  Azure,
-  Microsoft
-} from 'lucide-react';
+import { Cloud, Shield, Server } from 'lucide-react'; // seuls les icônes utilisés
 
 const Skills = () => {
   const skills = [
@@ -80,9 +71,9 @@ const Skills = () => {
                     {category.icon}
                   </div>
                 </div>
-                
+
                 <h3 className="text-xl font-bold text-gray-900 mb-6">{category.category}</h3>
-                
+
                 <div className="space-y-4">
                   {category.skills.map((skill, idx) => (
                     <div key={idx}>
