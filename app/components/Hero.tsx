@@ -23,14 +23,28 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
+            <div className="mb-2 text-blue-600 font-semibold">
+              Recherche d’alternance – Admin système & securité cloud | Septembre 2026
+            </div>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-                 <span className="text-gradient">Admin système</span> & securité cloud
+                 <span className="text-gradient">Alternant ingénieur informatique</span> 
             </h1>
             
             <p className="text-xl text-gray-600 mb-8">
               Passionné par la sécurité des systèmes d'information, le cloud computing et la gestion des risques IT.
               Actuellement en Master Cyber Sécurité Cloud System & Network à l'ESTIAM Paris.
             </p>
+            
+
+            <p className="text-xl text-gray-700 mb-4">
+              Master   Cyber Sécurité Cloud System & Network
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Rythme : <strong> 4 jours en entreprise pour 1 jour à l’école</strong>
+            </p>
+
+
 
             <div className="space-y-4 mb-8">
               <div className="flex items-center space-x-3">
@@ -107,7 +121,7 @@ const Hero = () => {
                 <p className="text-gray-600 text-sm">Gestion des risques SSI</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md card-hover">
-                <h3 className="font-bold text-lg mb-2">Wazuh</h3>
+                <h3 className="font-bold text-lg mb-2">Pentest</h3>
                 <p className="text-gray-600 text-sm">Supervision & Détection</p>
               </div>
             </div>

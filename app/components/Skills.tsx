@@ -21,7 +21,7 @@ const Skills = () => {
       icon: <Shield className="w-6 h-6" />,
       skills: [
         { name: "ISO 27001", level: 82 },
-        { name: "Wazuh", level: 80 },
+        { name: "Pentest", level: 80 },
         { name: "MFA & Conditional Access", level: 85 },
         { name: "Gestion des risques", level: 83 }
       ],
@@ -110,7 +110,7 @@ const Skills = () => {
           <div className="flex flex-wrap justify-center gap-4">
             {[
               "Microsoft Azure", "Microsoft 365", "Entra ID", "ISO 27001",
-              "Wazuh", "SCCM", "Intune", "Terraform", "GLPI", "ServiceNow",
+              "Pentest", "SCCM", "Intune", "Terraform", "GLPI", "ServiceNow",
               "Exchange Online", "SharePoint", "Teams", "OneDrive",
               "Cloud Monitoring", "Logging", "PowerShell"
             ].map((tech, index) => (
